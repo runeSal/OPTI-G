@@ -1,0 +1,11 @@
+﻿(Tool Change Begin)
+M05 (STOP SPINDEL)
+G00 Z25.00
+G53 G00 X0 Y0
+M6
+G01 Z10 F50 (TOOL DOWN 'SLOW MOVE')  	(skal æændres til o-code 'offset' tror jeg?)
+G00 Z25.00 (TOOL UP)			(skal æændres til o-code 'offset' tror jeg?)
+G00 XY_NEXT				(skal æændres til o-code 'offset' tror jeg?)
+M03 (START SPINDEL)
+G4 P1.00 (Wait for the spindel to startup)
+(Tool Change END)

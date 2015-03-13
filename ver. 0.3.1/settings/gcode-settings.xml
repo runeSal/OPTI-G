@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gcode_settings>
+    <data name="drilling_cycle">
+		<item>G82</item><item>g82</item>
+	</data>
+    <data name="absolute_mode">
+		<item>G90</item>
+		<item>g90</item>
+	</data>
+    <data name="unit_format_mm">
+		<item>G21</item>
+		<item>g21</item>
+	</data>
+    <data name="unit_format_inch">
+		<item>G20</item>
+		<item>g20</item>
+	</data>
+    <data name="tool_change">
+		<item>M06</item><item>m06</item>
+		<item>M6</item><item>m6</item>		
+	</data>
+    <data name="end_file_conditions">
+		<item>M05</item><item>m05</item>
+		<item>M5</item><item>m5</item>
+		<item>M02</item><item>m02</item>
+		<item>M2</item><item>m2</item>
+	</data>
+    <data name="end_of_file">
+		<item>M05</item>
+		<item>M02 (End)</item>
+	</data>
+    <data name="comment_start">
+		<item>(</item>
+	</data>
+    <data name="comment_end">
+		<item>)</item>
+	</data>
+    <data name="comment_gcode_end">
+		<item>;</item>
+	</data>
+    <data name="M_6_C_start">
+		<item>(MSG, Change Tool to: </item>
+	</data>
+    <data name="M_6_C_T">
+		<item>T</item><item>t</item>
+	</data>
+    <data name="M_6_C_end">
+		<item>mm)</item>
+	</data>
+</gcode_settings>
