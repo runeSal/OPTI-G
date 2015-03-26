@@ -1,8 +1,0 @@
-(Before files Begin)
-#<_tool_change_X> = 11   (user set value)
-#<_tool_change_Y> = 22   (user set value)
-#<_tool_change_Z> = 35   (user set value)
-#<_probe_higth> = 10	(user set value)
-#<_p_speed> = 100	(user set value)
-G43.1 Z0	(Reset Dynamic Tool Length Offset)
-(Before files END)
