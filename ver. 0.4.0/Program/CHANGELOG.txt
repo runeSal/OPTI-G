@@ -1,0 +1,19 @@
+
+Version 0.4.0
+--------------------
+--- Added	- 	The optimisation support drilling cycle command "G82".
+-
+--- Added	- 	When the optimisation stops it now shows how long the distance between cuts was,
+-				and is now after the optimisation, and how much the length has been reduced and in %.
+-
+--- Added	- 	The optimisation can now be stopped before it is finished. 
+-				By clicking on the make button where the text have changed to 'Stop Optimizing'.
+-
+--- Added	- 	Menu strip have been added to the drop down boxes, by right clicking on them.
+-				Where you have two options: 'open the file' and 'open the the folder'.
+-
+--- Added	- 	An installation file is now available.
+
+Version 0.3.1
+--------------------
+			- 	Initial release.

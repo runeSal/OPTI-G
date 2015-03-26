@@ -1,0 +1,9 @@
+﻿(Tool Change Begin)
+M05 (STOP SPINDEL)
+G00 Z25.00
+G30
+M6 (Take M6 command line and insert it here.)
+G00 Z25.00
+M03 (START SPINDEL)
+G4 P1.00 (Wait for the spindel to startup)
+(Tool Change END)

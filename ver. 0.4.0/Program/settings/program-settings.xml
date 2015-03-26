@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<program_settings>
+    <data name="etch_file_dialog_filter">
+		<item>Etch Files (*.etch.nc;*.etch.tab;*.etch.ngc)|*.etch.nc;*.etch.tab;*.etch.ngc</item>
+    <item>G-code Files (*.nc;*.tab;*.ngc;*.gcode;*.tpl)|*.nc;*.tab;*.ngc;*.gcode;*.tpl</item>
+		<item>All files (*.*)|*.*</item>
+	</data>
+    <data name="drill_file_dialog_filter">
+		<item>Drill Files (*.drill.nc;*.drill.tab;*.drill.ngc)|*.drill.nc;*.drill.tab;*.drill.ngc</item>
+		<item>G-code Files (*.nc;*.tab;*.ngc;*.gcode;*.tpl)|*.nc;*.tab;*.ngc;*.gcode;*.tpl</item>
+		<item>All files (*.*)|*.*</item>
+	</data>
+    <data name="save_file_dialog_filter">
+		<item>ngc Files (LinuxCNC) (*.ngc)|*.ngc</item>
+		<item>nc Files (*.nc)|*.nc</item>
+		<item>tab Files (*.tab)|*.tab</item>
+		<item>All files (*.*)|*.*</item>
+	</data>
+    <data name="output_file_name">
+		<item>opt2File</item>
+	</data>
+</program_settings>
