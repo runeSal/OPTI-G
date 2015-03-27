@@ -31,8 +31,37 @@
           <h1>
 <a id="opti-g" class="anchor" href="#opti-g" aria-hidden="true"><span class="octicon octicon-link"></span></a>OPTI-G</h1>
 
-<p>This program main purpose is to optimize G-code files, this is done by reorder the cuts, to minimize the distance between those.
+<p>This is an optimization program for G code, and this is done by reorder the cuts, to minimize the distance between those.
+Use it entirely at your own risk! It can still contain bugs!</p>
+
+<h2>
+<a id="the-program" class="anchor" href="#the-program" aria-hidden="true"><span class="octicon octicon-link"></span></a>The program:</h2>
+
+<p><img src="https://raw.githubusercontent.com/runeSal/OPTI-G/master/Images/GUI%20v.0.4.1.PNG" alt="GUI"></p>
+
+<p>There is no different between how the software handle Etch and Drill files, and other G-code files can also be optimized by this program.</p>
+
+<h2>
+<a id="the-optimization" class="anchor" href="#the-optimization" aria-hidden="true"><span class="octicon octicon-link"></span></a>The optimization:</h2>
+
+<p>The optimizing support both where the cut enter and stop at different places and the cut enter and exit the same place. The used optimizing do NOT support G-code, where the order of the cuts between tool change are important, and need to be performed in sequence.
+If you are interested in the algorithm used to optimize the G-code more information can be found on this
+<a href="http://hackaday.io/project/4955-g-code-optimizing">link</a>.
 <img src="https://raw.githubusercontent.com/runeSal/OPTI-G/master/Images/random%20cities%20before%20after%20OPTI-G.PNG" alt=""></p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h2>
+
+<ol>
+<li>Download the project and unpack it. </li>
+<li>Now there are two options
+
+<ul>
+<li>Move the 'Program' folder to location you want, and run the program from here. Make sure you have .NET 4.5 to run the program.</li>
+<li>Run the setup.exe file from the 'Installation files' folder.</li>
+</ul>
+</li>
+</ol>
         </section>
 
         <aside id="sidebar">
