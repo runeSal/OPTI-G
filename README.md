@@ -18,3 +18,6 @@ If you are interested in the algorithm used to optimize the G-code more informat
 2. Now there are two options
 	* Move the 'Program' folder to location you want, and run the program from here. Make sure you have .NET 4.5 to run the program.
 	* Run the setup.exe file from the 'Installation files' folder.
+
+## Images
+![Before after OPTI-G](https://raw.githubusercontent.com/runeSal/OPTI-G/master/Images/pcb%20before%20after%20OPTI-G.png)
