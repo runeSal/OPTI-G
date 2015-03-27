@@ -1,8 +1,0 @@
-(Before files Begin)
-#<_tool_change_up> = 50   (user set value)
-#<_probe_higth> = 10	(user set value)
-#<_p_speed> = 100	(user set value)
-(MSG, Have you remembered to set the TOOL CHANGE PLACE. Use the command G28.1 - stores the current absolute position into parameters 5161-5166.)
-(MSG, Have you remembered to set the TOOL PROBE PLACE. Use the command G30.1 - stores the current absolute position into parameters 5181-5186.)
-M0 (pause)
-(Before files END)

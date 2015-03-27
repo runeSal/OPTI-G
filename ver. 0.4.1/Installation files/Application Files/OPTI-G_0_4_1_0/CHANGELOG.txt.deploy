@@ -1,4 +1,8 @@
 
+Version 0.4.1
+--------------------
+--- Added	- 	New optimisation option : Randomize start path.
+
 Version 0.4.0
 --------------------
 --- Added	- 	The optimisation support drilling cycle command "G82".
