@@ -1,5 +1,5 @@
 # OPTI-G
-This is an optimization program for G-code, and this is done by reorder the cuts, to minimize the path distance between them.
+This is an optimization program for G-code, and this is done by reorder the cuts, to minimize the distance between them.
 Use it entirely at your own risk! It can still contain bugs!
 
 ## The program:
@@ -18,7 +18,7 @@ If you are interested in the algorithm used to optimize the G-code more informat
 1. Download the project and unpack it. 
 2. Now there are two options
 	* Move the 'Program' folder to location you want, and run the program from here. Make sure you have .NET 4.5 to run the program.
-	* Run the setup.exe file from the 'Installation files' folder.
+	* Or run the setup.exe file in the 'Installation files' folder.
 
 ## Images
 ![Before after OPTI-G](https://raw.githubusercontent.com/runeSal/OPTI-G/master/Images/pcb%20before%20after%20OPTI-G.png)
