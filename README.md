@@ -5,7 +5,7 @@ Use it entirely at your own risk! It can still contain bugs!
 ## The program:
 ![GUI](https://raw.githubusercontent.com/runeSal/OPTI-G/master/Images/GUI%20v.0.4.1.PNG)
 
-This optimizer is intended for use with 'Pcb-gcode' which has etch and drill files, but there is no different between how the software handle Etch and Drill files, and other G-code files can also be optimized by this program.
+This optimizer is intended for use with 'pcbgcode' which has etch and drill files, but there is no different between how the software handle Etch and Drill files, and other G-code files can also be optimized by this program.
 
 ## The optimization:
 The optimization support where the cut enter and stop at different places, and cuts there enter and exit the same place. Do NOT support G-code, where the order of the cuts between tool change are important, and need to be performed in sequence.
