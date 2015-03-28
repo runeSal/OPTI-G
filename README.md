@@ -9,7 +9,7 @@ This optimizer is intended for use with 'Pcb-gcode' which has etch and drill fil
 
 ## The optimization:
 The optimization support where the cut enter and stop at different places, and cuts there enter and exit the same place. Do NOT support G-code, where the order of the cuts between tool change are important, and need to be performed in sequence.
-If you are interested in the algorithm used to optimize the G-code more information can be found on this
+If you are interested in the algorithm used to optimize the G-code more information can be found at this
 [link](http://hackaday.io/project/4955-g-code-optimizing).
 
 ![](https://raw.githubusercontent.com/runeSal/OPTI-G/master/Images/random%20cities%20before%20after%20OPTI-G.PNG)
