@@ -1,14 +1,14 @@
 # OPTI-G
-This is an optimization program for G code, and this is done by reorder the cuts, to minimize the distance between those.
+This is an optimization program for G-code, and this is done by reorder the cuts, to minimize the path distance between them.
 Use it entirely at your own risk! It can still contain bugs!
 
 ## The program:
 ![GUI](https://raw.githubusercontent.com/runeSal/OPTI-G/master/Images/GUI%20v.0.4.1.PNG)
 
-There is no different between how the software handle Etch and Drill files, and other G-code files can also be optimized by this program.
+This optimizer is intended for use with 'Pcb-gcode' which has etch and drill files, but there is no different between how the software handle Etch and Drill files, and other G-code files can also be optimized by this program.
 
 ## The optimization:
-The optimizing support both where the cut enter and stop at different places and the cut enter and exit the same place. The used optimizing do NOT support G-code, where the order of the cuts between tool change are important, and need to be performed in sequence.
+The optimization support where the cut enter and stop at different places, and cuts there enter and exit the same place. Do NOT support G-code, where the order of the cuts between tool change are important, and need to be performed in sequence.
 If you are interested in the algorithm used to optimize the G-code more information can be found on this
 [link](http://hackaday.io/project/4955-g-code-optimizing).
 
