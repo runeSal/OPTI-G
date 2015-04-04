@@ -1,0 +1,9 @@
+(Tool change rutine)
+M05 (STOP SPINDEL)
+G00 Z[#<_tool_change_Z>]
+G00 X[#<_tool_change_X>] Y[#<_tool_change_Y>] (Move to tool length probe -PLACE-)
+(MSG, 1.Stop spindle and 2.change Tool)
+M_6 (Take M6 command line and insert it here.)
+M03 (START SPINDEL)
+G4 P1 (Wait for the spindel to startup)
+(Tool change END)
