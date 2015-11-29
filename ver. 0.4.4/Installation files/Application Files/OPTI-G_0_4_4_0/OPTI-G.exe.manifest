@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OPTI-G.exe" version="0.4.4.0" publicKeyToken="7bf8571d42537621" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ant9_ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OPTI-G" version="0.4.4.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OPTI-G.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OPTI-G.exe" size="78336">
+      <assemblyIdentity name="OPTI-G" version="0.4.4.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/8R2ztddtr/LZ9SmXlgMJd2MTFdW22TSgZx5E9I2Sak=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ant9_ico.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BgHHEYfxeI+I18REoIDFCMp9wX66iQ4lT7vnZB68+Xk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CHANGELOG.txt" size="1312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>79Dw6SvEsGSU1B8iqZGdtqK4pVpYXbkXNLgy8OZ9icw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\Before\G28 G30 Probe.txt" size="462">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d6JLBbiwx18bgzObqBVYjsFRLuqXczFjQ5Of8KueVl8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\Before\Tool change set in file G28 Probe.txt" size="408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y4eRLTKqj9imJ+4haT66V7F3G0MxgEwTDQ3fHgMADbc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\Before\Tool change set in file Probe.txt" size="289">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CAzLJMChUdx123WhvyeDAmnS6G+AAJZaEkkC1ZxwK4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\Between Etch Drill\Message.txt" size="134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9tn45piePAELlHzyiYqoiB+kMdLBHu8wOVYt53BS5hc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\Between Etch Drill\Probe G30.txt" size="455">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wg4AU7W0IJdu4CxkwAzLmBCFzj9cebgt6mT3mvxaQ5w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\Between Etch Drill\Probe set in file.txt" size="443">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xKG/wNmvJ5Ye3j03l0f2aScTsOgQsnFmKsVuZz8ea1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\M6\Goto set in file M6.txt" size="319">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3fX2hVAah9Ku/iI0okWQhTkT5U+W+xckaRgrcdiUj9A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\M6\Probe G28 - G30 M_6_M v1.txt" size="790">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/dLi5NjEMzpCyqRwleL2a4mZbvqwkti0mhiOx6Unt4Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\M6\Probe G28 - set in file  M_6_M.txt" size="900">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F0EHJ8fqLcJLbLQCBLEKMdMm/1EBYU5DLVl4iF2UFJk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\M6\Probe set in file M_6_M.txt" size="685">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bvJl+qu5YJ4u4IVTE9P36Fji7PZjxI/RFfPRuv52czk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\M6\Simple G30 M_6_M v1.txt" size="232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OnDQr9u6qHANa8aAvubWjOiu4BHZV1dmnkT/14XcJqU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="insert files\M6\Simple G30 M6 v1.txt" size="202">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C4tagxXLHWD3y1NgZ5VIx/qFWkXV7YOQM5nDTEcGHYA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="OPTI-G.exe.config" size="174">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YP2igrvBrrg2sVjdbd5SPlIls2XMb8AzjauegjR7Hi0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="settings\gcode-settings.xml" size="1169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4V+NRpXaod0+mFehZ6JcUWwXmECOlz7HORuXQLvXxDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="settings\program-settings.xml" size="1007">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+AzVvu1F49qW71iSKa0yNRoEVS1ojduQTAmozULhqSo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=BlackPC\Rune Home" issuerKeyHash="2f6622773d3b9b45403aa9a1ccdfd28c3a52858c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ahxG1UewIADfB9Njnv1oPpxkjJDQab7Osohlrs3hbcQ=</DigestValue></Reference></SignedInfo><SignatureValue>DhxZB3RbaZzH0+6K9XJZOHwP9d8w6ZJyt3lrZoXGZoliYyaOVc21KfkPvfxkz4jS/cmcbViz1ZkM1AzLpavTj2Pit3bsXKfk4Z+Y76TjCjvsRkM3noVD8ok1474APNnA3bbk2dKDKr8Og9RVa4NJsGY8y3X148L+XXK5gFQ4Mwk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tiUUE6xMdZUazcQGx3a0+0ow/miSZtc9xau9dNLceFIRrTi9zd7OfVCuaLU/BnbcqKrLeFN7Ljl3AUHypR6vfEePwYMm2btqEPvlRXUYdcLFUTi58V3hitlyQtp19tV1eMA9BPYLdkIbTR1oBDA3CMwUxzS36MVPZiajC8XW8eM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c46de1cdae6588b2cebe69d0908c649c3e68fd9e63d307df0020b047d5461c6a" Description="" Url=""><as:assemblyIdentity name="OPTI-G.exe" version="0.4.4.0" publicKeyToken="7bf8571d42537621" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BlackPC\Rune Home</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FARD9axMNmWD0cXsv5n1B8xxdVuB1UDhoRSVxXOof3c=</DigestValue></Reference></SignedInfo><SignatureValue>DWMBoCQTwHeC06Vr3qxGrWMQnt25IdZwue1EUeCCxrq7mWZZamJ3NfExQcTP/0/PR4t/lF1mVv2gaw9gF4UdwsXZo2qJq3H6A7lzd2poIOijdy6ffP55uEDf5NEN7wB50g8+UssDATj+m8SPvWxDs5N7BX4HeGwEGpe69NfIQHU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tiUUE6xMdZUazcQGx3a0+0ow/miSZtc9xau9dNLceFIRrTi9zd7OfVCuaLU/BnbcqKrLeFN7Ljl3AUHypR6vfEePwYMm2btqEPvlRXUYdcLFUTi58V3hitlyQtp19tV1eMA9BPYLdkIbTR1oBDA3CMwUxzS36MVPZiajC8XW8eM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQZaCWq5olk4ZH6jrxc8zg9jANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQgBsAGEAYwBrAFAAQwBcAFIAdQBuAGUAIABIAG8AbQBlMB4XDTE1MDMxNTE2Mzg0MloXDTE2MDMxNDIyMzg0MlowLTErMCkGA1UEAx4iAEIAbABhAGMAawBQAEMAXABSAHUAbgBlACAASABvAG0AZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtiUUE6xMdZUazcQGx3a0+0ow/miSZtc9xau9dNLceFIRrTi9zd7OfVCuaLU/BnbcqKrLeFN7Ljl3AUHypR6vfEePwYMm2btqEPvlRXUYdcLFUTi58V3hitlyQtp19tV1eMA9BPYLdkIbTR1oBDA3CMwUxzS36MVPZiajC8XW8eMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAO8pU28qj/PcSVO5OwDswcbXjmw6pGdZVjom0p2Lm3kKm5yZUBKXR4ZIPw3CexrsdodSzDV/YZjopc3/Bp/kXDOEV/e8U2Y3woZ82Y52kt1kWf3ju6G2vlCmiMNxRqFPLo8xSq00JzbHc2lSbXVj5emOBijR79W3tweldW2Tf13g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
